@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_new_tab"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="New Tab"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_prev_tab"
+        android:icon="@drawable/ic_menu_back"
+        android:iconTint="@color/colorAccent"
+        android:title="Previous Tab"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_next_tab"
+        android:icon="@drawable/ic_menu_next_24dp"
+        android:iconTint="@color/colorAccent"
+        android:title="Next Tab"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>
